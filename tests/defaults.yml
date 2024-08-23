@@ -1,3 +1,8 @@
-# Overwrite parameters here
-
-# parameters: {...}
+parameters:
+  vault_operator:
+    instances:
+      defaults: {}
+      withspec:
+        config:
+          storage:
+            inmem: {}
