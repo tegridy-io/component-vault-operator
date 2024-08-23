@@ -2,3 +2,13 @@ parameters:
   vault_operator:
     =_metadata: {}
     namespace: syn-vault-operator
+
+    manifestVersion: v1.22.2
+    kustomizeInput:
+      namespace: ${vault_operator:namespace}
+
+    images:
+      operator:
+        registry: ghcr.io
+        repository: bank-vaults/vault-operator
+        tag: ${vault_operator:manifestVersion}
