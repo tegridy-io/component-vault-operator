@@ -12,3 +12,13 @@ parameters:
         registry: ghcr.io
         repository: bank-vaults/vault-operator
         tag: ${vault_operator:manifestVersion}
+      vault:
+        registry: docker.io
+        repository: hashicorp/vault
+        version: 1.17.3
+      bankvaults:
+        registry: ghcr.io
+        repository: bank-vaults/bank-vaults
+        version: v1.31.1
+
+    instances: {}
