@@ -1,0 +1,5 @@
+= Vault Operator
+
+vault-operator is a Commodore component to manage Vault Operator.
+
+See the xref:references/parameters.adoc[parameters] reference for further details.

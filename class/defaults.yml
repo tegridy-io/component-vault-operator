@@ -1,0 +1,4 @@
+parameters:
+  vault_operator:
+    =_metadata: {}
+    namespace: syn-vault-operator
